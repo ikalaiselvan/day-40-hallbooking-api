@@ -154,10 +154,10 @@ app.get('/customers', (req, res) => {
 
 app.get("/",(req, res)=>{
     res.send({
-      create_room: "/create-room",
-      book_room: "/book-room",
       list_rooms: "/list_rooms",
       list_costomers: "/customers",
+      create_room: "/create-room",
+      book_room: "/book-room",
     });
 })
 
